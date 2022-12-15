@@ -1,0 +1,58 @@
+
+
+  .photo {
+    width: 100%;
+    
+  }
+  
+  .title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 525;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+  }
+
+  .profile {
+    width: 65%;
+    border-radius: 40px;
+    
+  }
+  .thumbnail-row {
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .creator,
+  .info {
+    font-size: 14px;
+    color: rgb(108, 107, 107);
+  }
+  .creator {
+    margin-bottom: 6px;
+  }
+  .maingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 50px;
+  }
+  .videotime{
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    bottom: 10px;
+    right: 5px;
+  }

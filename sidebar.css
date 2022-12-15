@@ -1,0 +1,29 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    
+}
+.side{
+    bckground-color: lightgray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.side:hover{
+    background-color: rgb(236, 233, 233);
+}
+.side img{
+    height: 26px;
+
+}
+.side div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}
